@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <form action="kiitos.html" method="post" onSubmit="return formValidation(this);" onReset="return formReset(this)">
+      <!-- Laita h1 keskelle -->
+      <h1 id="paaotsikko">Työpaikkakysely</h1>
+      <!-- Pistä CSS:ssä td:n leveys 50px-->
+      <!-- Kohdistaa  luokan teksti "oikea" oikealle-->
+      <table>
+      <tr>
+        <td>Anna etunimi:</td>
+        <td class="oikea"><input type="text" id="enimi" name="enimi" value=""><br /></td>
+      </tr>
+
+      <tr>
+        <td>Anna sukunimi:</td>
+        <td class="oikea"><input type="text" id="snimi" name="snimi" value=""></td>
+      </tr>
+
+      <tr>
+        <td>Anna sähköpostisi:</td>
+        <td class="oikea"><input type="text" id="sposti" name="sposti" value=""></td>
+      </tr>
+      <hr>
+      </table>
+      <p>Palaute profiilistamme:</p>
+      <textarea id="palaute" name="palaute" rows="8" cols="50"></textarea>
+
+    <p>Valitse, miten kuulit tästä kyselystä:</p>
+    <p>
+      <input type="radio" name="info" value="kaveri">Ystäviltä<br />
+      <input type="radio" name="info" value="website">Verkkosivustot, kuten Facebook, Instagram tai YouTube<br />
+      <input type="radio" name="info" value="mainos">Mainonnasta<br />
+    </p>
+    <p>Miten pääset töihin?</p>
+    <table>
+    <p>
+      <input type="checkbox" name="box" value="Metrolla">Metrolla<br />
+      <input type="checkbox" name="box" value="Bussilla">Bussilla<br />
+      <input type="checkbox" name="box" value="Taksilla">Taksilla<br />
+      <input type="checkbox" name="box" value="Junalla">Junalla<br />
+      <input type="checkbox" name="box" value="Raitiovaunulla">Raitiovaunulla<br />
+      <input type="checkbox" name="box" value="Polkupuoralla">Polkupuörällä<br />
+      <input type="checkbox" name="box" value="Kavella">Kävellä<br />
+    </p>
+    <p>
+      <input type="submit" name="submit" value="Submit">
+      <input type="reset" name="reset" value="Tyhjennä">
+    </p>
+  </table>
+  </form>
+  </body>
+</html>

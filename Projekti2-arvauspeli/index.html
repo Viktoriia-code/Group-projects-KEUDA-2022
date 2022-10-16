@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="tt">
+        <div class="user-data">
+          <div class="wins">
+            Voitot: <div id="winNumber">0</div>
+          </div>
+          <div class="loses">
+            Tappiot: <div id="loseNumber">0</div>
+          </div>
+        </div>
+        <h1>Arvauspeli</h1>
+        <p>Käyttäjän tehtävänä on arvata luku välillä 1 - 10 ja kone kertoo jokaisen arvauksen jälkeen, onko arvattava luku alempana vai korkeampana kuin arvaus. Arvauskertoja on 3, jonka jälkeen käyttäjä häviää pelin. Pelin voi kuitenkin aloittaa alusta ja pelata niin monta kertaa kuin haluaa. Ohjelma pitää kirjaa voitoista ja tappioista. </p>
+
+        <div class="container">
+          <button class="nayta" type="button" name="1" id="1" onclick="arvaa(this)" value="1">1</button>
+          <button class="nayta" type="button" name="2" id="2" onclick="arvaa(this)" value="2">2</button>
+          <button class="nayta" type="button" name="3" id="3" onclick="arvaa(this)" value="3">3</button>
+          <button class="nayta" type="button" name="4" id="4" onclick="arvaa(this)" value="4">4</button>
+          <button class="nayta" type="button" name="5" id="5" onclick="arvaa(this)" value="5">5</button>
+          <button class="nayta" type="button" name="6" id="6" onclick="arvaa(this)" value="6">6</button>
+          <button class="nayta" type="button" name="7" id="7" onclick="arvaa(this)" value="7">7</button>
+          <button class="nayta" type="button" name="8" id="8" onclick="arvaa(this)" value="8">8</button>
+          <button class="nayta" type="button" name="9" id="9" onclick="arvaa(this)" value="9">9</button>
+          <button class="nayta" type="button" name="10" id="10" onclick="arvaa(this)" value="10">10</button>
+        </div>
+      </div><br>
+      <div id="viesti"></div>
+    </div>
+    <img src="assets/wizard1.png" alt="wizard" id="wizard">
+  </body>
+</html>
