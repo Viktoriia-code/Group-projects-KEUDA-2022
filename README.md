@@ -6,6 +6,4 @@
 
 :atom: 2. projekti "Arvauspeli": https://viktoriia-code.github.io/Group-projects-KEUDA-2022/Projekti2-arvauspeli/
 
-:atom: 2. projekti "Arvauspeli"(**English**): https://viktoriia-code.github.io/Group-projects-KEUDA-2022/Projekti2-arvauspeli-ENG/
-
 :atom: 2B. projekti "Lomake": https://viktoriia-code.github.io/Group-projects-KEUDA-2022/Projekti2B-lomake/
