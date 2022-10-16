@@ -1,4 +1,4 @@
-# Ryhmäprojektit, Ohjelmointi Syksy 22
+# Ryhmäprojektit, Ohjelmointi, Syksy 22
 
 :sparkles: Viktoriia, Egor ja Sonja :sparkles:
 
