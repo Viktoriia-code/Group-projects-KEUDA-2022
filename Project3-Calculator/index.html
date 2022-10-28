@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="notes">
+        <div class="notes-title">
+          <span>History</span>
+        </div>
+        <div id="savedNotes"></div>
+        <span class="help">Press &#10550; to save</span>
+      </div
+      <div class="calculator">
+        <table id="calculator-table">
+  <tr>
+    <td colspan="5">
+      <div class="" id="calculator-screen">
+        <div id="result"></div>
+        <div id="operation"></div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><button id="7" type="button" value = "7" onclick="add('7')">7</button></td>
+    <td><button id="8" type="button" value = "8" onclick="add('8')">8</button></td>
+    <td><button id="9" type="button" value = "9" onclick="add('9')">9</button></td>
+    <td><button id="kerto" type="button" class="mathSign" onclick="add('*')">&#8727;</button></td>
+    <td><button id="reset" type="button" class="mathSign" onclick = "reset()">AC</button></td>
+  </tr>
+  <tr>
+    <td><button id="4" type="button" value = "4" onclick="add('4')">4</button></td>
+    <td><button id="5" type="button" value = "5" onclick="add('5')">5</button></td>
+    <td><button id="6" type="button" value = "6" onclick="add('6')">6</button></td>
+    <td><button id="minus" type="button" class="mathSign" onclick="add('-')">&#8722;</button></td>
+    <td><button id="jako" type="button" class="mathSign" onclick="add('/')">&#247;</button></td>
+  </tr>
+  <tr>
+    <td><button id="1" type="button" onclick="add('1')">1</button></td>
+    <td><button id="2" type="button" onclick="add('2')">2</button></td>
+    <td><button id="3" type="button" onclick="add('3')">3</button></td>
+    <td><button id="plus" type="button" class="mathSign" onclick="add('+')">&#43;</button></td>
+    <td><button id="pros" type="button" class="mathSign" onclick="add('%')">%</button></td>
+  </tr>
+  <tr>
+    <td><button id="0" type="button"  onclick="add('0')">0</button></td>
+    <td><button id="pilkku" type="button" class="mathSign" onclick="add('.')">,</button></td>
+    <td><button id="poisto" type="button" class="mathSign" onclick = removeLast()>C</button></td>
+    <td><button id="equal" type="button" onclick="laske()">=</button></td>
+    <td><button id="save" type="button" onclick="save()">&#10550;</button></td>
+  </tr>
+</table>
+      </div>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
