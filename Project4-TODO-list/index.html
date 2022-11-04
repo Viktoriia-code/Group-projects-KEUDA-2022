@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="images/eisenhower-matrix.jpg" alt="eisenhower-matrix" id="matrix"><br>
+        <span class='info'><a href="https://clockify.me/blog/productivity/eisenhower-matrix/" target="_blank">Want more details?</a></span>
+      </header>
+      <main>
+        <section class="new-list">
+          <label for="new-task">Add Item</label>
+          <div class="task-wrapper">
+            <input id="new-task" class="task" type="text">
+            <button id="add-task">Add</button>
+            <ul></ul>
+          </div>
+        </section>
+        <section class="todo-list">
+          <h3>Todo</h3>
+          <ul id="incomplete-tasks"></ul>
+        </section>
+        <section class="done-list">
+          <h3>Done</h3>
+          <ul id="completed-tasks"></ul>
+        </section>
+      </main>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
