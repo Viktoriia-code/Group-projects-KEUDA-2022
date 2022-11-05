@@ -1,5 +1,5 @@
 var taskInput=document.getElementById("new-task");//Add a new task.
-var addButton=document.getElementById("add-task");//Button to ass a new task.
+var addButton=document.getElementById("add-task");//Button to add a new task.
 var incompleteTaskHolder=document.getElementById("incomplete-tasks");//ul of #incomplete-tasks
 var completedTasksHolder=document.getElementById("completed-tasks");//ul of completed-tasks
 
