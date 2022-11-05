@@ -16,4 +16,6 @@
 
 :atom: 4. projekti "Tehtävälista": https://viktoriia-code.github.io/Group-projects-KEUDA-2022/Project4-TODO-list/
 
-:scroll: Dokumentointi 4. projekti "Tehtävälista":
+:scroll: Dokumentointi 4. projekti "Tehtävälista": https://github.com/Viktoriia-code/Group-projects-KEUDA-2022/blob/main/Project4-TODO-list/Projekti%204%20dokumentaatio.pdf
+
+:atom: 5. projekti "Muistipeli":
